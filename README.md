@@ -11,3 +11,14 @@
 
 以上就能保证 grill session的干净。 同时如果有必要，可以将session 2的内容handoff到原session。
 <img width="892" height="522" alt="image" src="https://github.com/user-attachments/assets/195bff3f-d019-43ea-914d-befbf5415325" />
+
+
+# Global 
+该目录中的内容用于Agent的全局配置
+
+# Project
+该目录中的内容用于某个项目的配置
+
+# Skills
+该目录保存经过自己优化调整的Customized Skills 以及它人的Public Skills
+
