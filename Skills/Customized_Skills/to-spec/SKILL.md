@@ -8,6 +8,8 @@ This skill takes the current conversation context and codebase understanding and
 
 The local file in `workflow/docs/specs/` is the canonical Spec. Synchronizing that Spec to a configured issue tracker is optional and does not replace the local file.
 
+Write the completed Spec entirely in Chinese, including all headings, prose, lists, and user stories. Preserve source-code identifiers, API names, and other proper nouns when translation would reduce clarity.
+
 ## Process
 
 1. Explore the repo to understand the current state of the codebase, if you haven't already. Use the project's domain glossary vocabulary throughout the spec, and respect any ADRs in the area you're touching.
