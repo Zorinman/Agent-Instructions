@@ -14,7 +14,7 @@
 序列编号_文档类型(adr/specs/tickers/archives)_功能名称.md
 例如：
 - 0001_adr_用户认证.md
-
+- 编号从现有的最大编号开始递增（adr,specs,tickers,archives所有文档中最大的），确保唯一性。
 ## 归档
 当某个功能的开发完成后且用户提出归档需求时，其对应的 adr、specs、tickers 文件将被移动到 archives 文件夹中进行归档，以便于后续查阅和管理。其中内容应加上归档记录,具体格式如下：
 ```markdown
