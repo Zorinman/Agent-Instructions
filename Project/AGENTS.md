@@ -5,7 +5,7 @@
 1. `/Grill With Docs` 讨论设计并生成 ADR。
 2. `/To Spec` 生成 Spec。
 3. `/To Tickets` 将工作拆分为 Ticker 文件。
-4. 根据用户提示开始实现具体代码。
+4. 根据用户提示开始实现具体代码。每完成Ticker中的一个task则同步更新Ticker文档。
 
 该流程不是每次编码的必经步骤。是否采用全部或部分步骤由用户决定。
 
