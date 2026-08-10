@@ -48,7 +48,7 @@ If there is no `.codegraph/` directory, skip CodeGraph entirely — indexing is 
 
 Follow these guidelines when making changes to the codebase:
 
-1. Ask me if I need backward compatibility for an implementation before assuming that I do.
+1. Don't assume by default that I need backward compatibility; confirm with me before you proceed, and also state the backward compatibility measures you might implement briefly.
 2. Choose the simplest implementation that fully meets the current requirements. Avoid speculative abstractions, configuration, and indirection.
 3. Grow the system in layers by scope, not by quality. Start from the smallest end-to-end feature set that fully satisfies current requirements. Each layer must be implemented correctly and consistently with the existing architecture — but its scope must still match only what's currently required, not anticipated future needs (see #2). A shortcut is not the same as a minimal implementation: the former cuts correctness, the latter cuts scope.
 4. Keep components modular and concerns clearly separated.
