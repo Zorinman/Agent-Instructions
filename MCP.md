@@ -1,3 +1,4 @@
+>以下MCP可在CC Switch中直接配置
 # codegraph（本地安装）
 **详细使用见:https://github.com/colbymchenry/codegraph**
 ```json
